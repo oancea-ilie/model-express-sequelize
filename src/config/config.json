@@ -2,24 +2,24 @@
     "development": {
       "username": "root",
       "password": "root",
-      "database": "test_db",
-      "host": "127.0.0.1",
+      "database": "sequelize_model",
+      "host": "localhost",
       "dialect": "mysql",
       "operatorsAliases": false
     },
     "test": {
       "username": "root",
       "password": "root",
-      "database": "test_db",
-      "host": "127.0.0.1",
+      "database": "sequelize_model",
+      "host": "localhost",
       "dialect": "mysql",
       "operatorsAliases": false
     },
     "production": {
       "username": "root",
       "password": "root",
-      "database": "test_db",
-      "host": "127.0.0.1",
+      "database": "sequelize_model",
+      "host": "localhost",
       "dialect": "mysql",
       "operatorsAliases": false
     }

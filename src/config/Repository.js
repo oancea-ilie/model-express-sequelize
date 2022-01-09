@@ -35,9 +35,10 @@ export default  class Repository {
                  models:{}
                }
 
-              db.sequeliz = sequelize;
+              db.sequelize = sequelize;
               db.Sequelize = Sequelize;
 
+          
 
               db.models.Persoana = Persoana(sequelize);
 

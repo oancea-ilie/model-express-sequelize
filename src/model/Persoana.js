@@ -19,7 +19,7 @@ export default (sequelize)=>{
             type:Sequelize.STRING,
             allowNull:false,
             validate:{
-                noNull:{
+                notNull:{
                     msg:'A name is required!'
                 },
                 notEmpty:{
@@ -32,7 +32,7 @@ export default (sequelize)=>{
             type:Sequelize.STRING,
             allowNull:false,
             validate:{
-                noNull:{
+                notNull:{
                     msg:'A email is required!'
                 },
                 notEmpty:{
@@ -45,7 +45,7 @@ export default (sequelize)=>{
             type:Sequelize.STRING,
             allowNull:false,
             validate:{
-                noNull:{
+                notNull:{
                     msg:'A password is required!'
                 },
                 notEmpty:{
